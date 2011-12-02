@@ -28,6 +28,9 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files = %w[README.md LICENSE]
 
   s.add_dependency('templater', [">= 1.0.0"])
+  s.add_dependency('capybara', [">= 1.0.0"])
+  s.add_dependency('cucumber', [">= 1.0.0"])
+  s.add_dependency('rspec', [">= 2.0.0"])
 
   # = MANIFEST =
   s.files = %w[
